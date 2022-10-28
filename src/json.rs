@@ -4,5 +4,5 @@ use serde::{Serialize, Deserialize};
 pub struct Operation {
     pub from: usize,
     pub to: usize,
-    pub amount: f32
+    pub amount: i32
 }
